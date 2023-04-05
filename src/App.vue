@@ -20,6 +20,21 @@
           <a href="https://openai.com/" class="font-semibold hover:underline"
             >OpenAI</a
           >
+          and
+          <a
+            href="https://www.pinecone.io/"
+            class="font-semibold hover:underline"
+            >Pinecone</a
+          >
+        </p>
+        <p class="text-xs text-gray-400 py-1">
+          2023 &copy;
+          <a
+            href="https://www.vanguardwebart.com/"
+            class="font-semibold hover:underline"
+            >Vanguard Web Art.</a
+          >
+          All rights reserved.
         </p>
       </footer>
     </div>
