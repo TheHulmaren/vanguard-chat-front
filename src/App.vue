@@ -14,8 +14,8 @@
           <router-view></router-view>
         </main>
       </div>
-      <footer>
-        <p class="text-xs text-gray-400 py-1">
+      <footer class="text-center">
+        <p class="text-xs text-gray-400 my-1">
           Powered by
           <a href="https://openai.com/" class="font-semibold hover:underline"
             >OpenAI</a
@@ -27,7 +27,7 @@
             >Pinecone</a
           >
         </p>
-        <p class="text-xs text-gray-400 py-1">
+        <p class="text-xs text-gray-400">
           2023 &copy;
           <a
             href="https://www.vanguardwebart.com/"
