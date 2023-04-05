@@ -43,7 +43,11 @@ export default {
           )
         );
       });
-      items = (await Promise.all(items)).map((item) => item.data.data);
+      items = (await Promise.all(items)).map((item) => {
+        if(item.data){
+          return item.data.data;
+        }
+      });
       return items;
     },
     async getAnswerResponse(query, items) {
